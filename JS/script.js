@@ -42,5 +42,8 @@ function getHumainChoice() {
     
 }
 
+let humanScore=0
+let computerScore=0
+
 console.log(getComputerChoice())
 console.log(getHumainChoice())
