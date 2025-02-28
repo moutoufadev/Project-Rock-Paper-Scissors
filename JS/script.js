@@ -14,4 +14,33 @@ function getComputerChoice() {
 }
 
 // Example usage
-console.log(getComputerChoice());
+//console.log(getComputerChoice());
+
+function getHumainChoice() {
+
+    let choice=prompt("Give us your choice please between 0 1 and 2!")
+    while (choice >3){
+        choice=prompt("bad choice! choose again please")
+    }
+    switch(choice){
+        case choice='0':
+            return "rock"
+            break;
+        case choice='1':
+            return "paper"
+            break;
+        case choice='2':
+            return "scissors"
+
+            break
+        
+          
+    }
+
+    
+        
+    
+}
+
+console.log(getComputerChoice())
+console.log(getHumainChoice())
